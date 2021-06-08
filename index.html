@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="shortcut icon" type="image/icon" href="img/google.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="videoJS-plantilla--master/css/video-js.css">
+    <script src="videoJS-plantilla--master/js/video.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="js/player.js"></script>
+
+    <title>Cuídate de la pandemia</title>
+</head>
+
+<body onload="initPlayer()">
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-12">
+                    <h2 style="color:beige; font-family:Impact, Haettenschweiler; text-align: center;">Cuídate de la
+                        pandemia</h2>
+                    <p style="text-align: justify;">Valentina se encuentra en su casa una mañana común y corriente bajo
+                        la nueva normalidad que se vive. De repente, decide salir
+                        a la portería de su unidad para realizar un pago, sin saber que esta pequeña aventura hará que
+                        se enfrente a una serie de
+                        situaciones a lo largo del día. Dichas situaciones pondrán
+                        en riesgo su salud y la de los demás. ¿Será posible que Valentina vuelva a casa sin contagiarse?
+                        ¿Qué tanto aplicamos los
+                        protocolos de seguridad?
+                        <i>
+                            <p style="font-size:12px;">Para disfrutar de la experiencia interactiva, no realizar zoom
+                                out o zoom in a la página, ampliar el reproductor o maximizar la pestaña.</p>
+                        </i>
+                    </p>
+                </div>
+                <div class="col-12 col-sm">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container mid">
+            <div class="row row-content align-items-center">
+                <div class="col- col-sm-4 order-sm-first col-sm-4">
+
+                </div>
+                <div class="col-md-9 col-lg-20 order-sm-first col- allign=center">
+                    <p class="d-none d-sm-block">
+
+                        <video class="video1 video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls autoplay
+                            id="video1">
+                            <source src="Videos/Video 1.mp4" type="video/mp4">
+                            Su navegador no soporta la etiqueta de video.
+                        </video>
+                        <a id="Btn1"></a>
+                        <a id="Btn2"></a>
+                        <a id="Btn3"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 offset-1 col-sm-12">
+                    <h5>Realizado por: </h5>
+                    <ul class="list-unstyled">
+                        <li>Antonio González Torres</li>
+                        <li>Juan José Jiménez Solís</li>
+                        <li>Daniel Andrés Vélez Vargas</li>
+                        <li>Manuel Fernando Verutti Narváez</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>Universidad Autónoma de Occidente.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script>
+    var reproductor = videojs('video1', {
+        fluid: true
+    });
+</script>
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</html>
